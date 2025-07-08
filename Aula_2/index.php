@@ -19,7 +19,7 @@
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
             if(isset($_POST['verificar_primo'])){
-                $numero_primo = $_POST['numero_primo'];
+                $numero = $_POST['numero_primo'];
                 $ehPrimo = true;
 
                 if($numero <= 1){
